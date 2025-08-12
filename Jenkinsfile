@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Checkout From Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/Aj7Ay/Python-System-Monitoring.git'
+                git branch: 'main', url: 'https://github.com/Dinesh-Arivu/PYTHON-WebApp-Deployment-with-DevSecOps-CI-CD-Pipeline-using-Jenkins.git'
             }
         }
         stage("Sonarqube Analysis "){
